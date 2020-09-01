@@ -7,7 +7,6 @@ import { Button } from "@material-ui/core";
 import PeopleIcon from "@material-ui/icons/People";
 import { useHistory } from "react-router-dom";
 
-// DATE PICKER COMPONENT
 function Search() {
     const history = useHistory();
     const [startDate, setStartDate] = useState(new Date());
